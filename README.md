@@ -22,7 +22,7 @@ Ayrıca verisetine “n fold cross validation” işlemi uyguladın ve n değeri
 Kurulan modeller sonucunda “Activity”, “Type of Disease”, NAS score” gibi özellikler belirleyici özellikler olduğunu gösterdi.
 Performansı ölçmek için doğruluk (accuracy), F1 skoru, precision, recall, classification report gibi metrikler kullandık.
 
-Accuracy sonuçları:
+Stratified K-Fold Cross-Validation F1 score sonuçları:
 KNN: %96.69				 Naive Bayes: %91.24
 Karar Ağaçları: %98.35	                SVM: %98.51         Gradient Boosting: %98.84 	         Random Forest: %99.01                     AdaBoost: %99.17		
 XGBoost: %99.17 		               CatBoost: %99.17 
